@@ -5,7 +5,7 @@ All the outputs that were obtained have been placed in the output folder for ref
 
 The following was expected out of students:
 
-# Task1:
+### Task1:
 1) Initially flattened the input ie 28x28x1 to 784x1 ,so as to pass it through the FC layers
 2) followed by a 100 neuron layer and finally a softmax classifier for multi class classification
 3) To be noted that a Tensorboard summary writer was utilised to plot the accuracy and loss curve
@@ -15,7 +15,7 @@ Observation:
   There was a continous improvement in the accuarcy of the model until 44 the epoch after which the accuracy was constant.
   The training went on smoothly and quickly as it was a very small network.
   
-# Task2:
+### Task2:
 1) Along with all the layers present in the last task ,2 additional conv layers were added with the mentioned configurations.
 2) The computations of the input and the output feature shapes were made using (N-F/S)+1
 3) Finally a minor changes was made in the input shape of the first FC as per the output of the flattened conv layer.
@@ -25,21 +25,21 @@ Observation:
   The number was epochs was set to 60.
   This one took a slightly higher time as compared to the first one.
   
-# Task3:
+### Task3:
 1) The only changes that was made in this step was the change in the activation function used for the FC layers.
 This network was run for only 15 iteration as the accuracy was really good.
 
 Observation:
   The accuracy was around 99% on the test set.
   
-# Task4:
+### Task4:
 1) An additional FC layer with a 100 neurons were added to the existing network.
 
 Observation:
   There were a lot of spikes in the accuracy curve initially which later got stagnated.
   The last improvement in the accuracy was seen at 32nd epoch
   
-# Task 5:
+### Task 5:
 1) All the FC layers which had 100 neurons initially now were changed to 1000 Neurons.
 2. Use Dropouts if necessary.
 
