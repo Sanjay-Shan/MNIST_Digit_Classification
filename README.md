@@ -1,4 +1,4 @@
-##MNIST Digit Classification
+## MNIST Digit Classification
 
 The Project was done as a part of the class Assignment.The task was to perform the MNIST Digit classification using the given dataset.
 All the outputs that were obtained have been placed in the output folder for reference ( except for the trained models).  
