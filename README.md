@@ -1,5 +1,5 @@
 The Project was done as a part of the class Assignment.The task was to perform the MNIST Digit classification using the given dataset.
-All the outputs that were obtained have been placed in the output folder for reference ( except for the trained models).
+All the outputs that were obtained have been placed in the output folder for reference ( except for the trained models).  
 
 The following was expected out of students:
 
@@ -49,3 +49,8 @@ Other observations:
 1) Output changes for every single trial due to the random initialization of weights.( hence a phenomenon like seeding can get the same output every trial if it is for the
 same dataset.
 2) various other initialisations can be used like xaviour initilisation etc where the range of weights depends upon the number of nodes in the layer. (-1/sqrt(n) ,1/sqrt(n
+
+Structure of the output folders for each of the tasks ,mentioned above:
+1. Accuracy plot
+2. Loss Plot
+3. Trace file for training
