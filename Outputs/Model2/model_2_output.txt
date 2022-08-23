@@ -1,0 +1,422 @@
+uda check done False
+2021-10-23 12:56:48.021938: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/lib/cuda/include:/usr/lib/cuda/lib64:
+2021-10-23 12:56:48.021957: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Initialised the TB writer
+Torch device selected:  cpu
+Initialize the model from the convnet ConvNet(
+  (conv1): Conv2d(1, 40, kernel_size=(5, 5), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=(2, 2), stride=2, padding=0, dilation=1, ceil_mode=False)
+  (relu): ReLU()
+  (conv2): Conv2d(40, 60, kernel_size=(5, 5), stride=(1, 1))
+  (fc3): Linear(in_features=960, out_features=100, bias=True)
+  (act): Sigmoid()
+  (fc4): Linear(in_features=100, out_features=10, bias=True)
+  (output): Softmax(dim=1)
+)
+loss defined
+optimiser defined
+data preparation done , moving towards training
+Train set: Average loss: 1.5878, Accuracy: 53357/60000 (89%)
+
+
+Test set: Average loss: 1.4863, Accuracy: 9812/10000 (98%)
+
+Accuracy Improving
+1 Done...
+Train set: Average loss: 1.4836, Accuracy: 58919/60000 (98%)
+
+
+Test set: Average loss: 1.4785, Accuracy: 9871/10000 (99%)
+
+Accuracy Improving
+2 Done...
+Train set: Average loss: 1.4765, Accuracy: 59280/60000 (99%)
+
+
+Test set: Average loss: 1.4762, Accuracy: 9883/10000 (99%)
+
+Accuracy Improving
+3 Done...
+Train set: Average loss: 1.4731, Accuracy: 59433/60000 (99%)
+
+
+Test set: Average loss: 1.4760, Accuracy: 9874/10000 (99%)
+
+4 Done...
+Train set: Average loss: 1.4708, Accuracy: 59548/60000 (99%)
+
+
+Test set: Average loss: 1.4721, Accuracy: 9913/10000 (99%)
+
+Accuracy Improving
+5 Done...
+Train set: Average loss: 1.4690, Accuracy: 59629/60000 (99%)
+
+
+Test set: Average loss: 1.4730, Accuracy: 9901/10000 (99%)
+
+6 Done...
+Train set: Average loss: 1.4678, Accuracy: 59692/60000 (99%)
+
+
+Test set: Average loss: 1.4703, Accuracy: 9923/10000 (99%)
+
+Accuracy Improving
+7 Done...
+Train set: Average loss: 1.4670, Accuracy: 59720/60000 (100%)
+
+
+Test set: Average loss: 1.4703, Accuracy: 9918/10000 (99%)
+
+8 Done...
+Train set: Average loss: 1.4662, Accuracy: 59772/60000 (100%)
+
+
+Test set: Average loss: 1.4696, Accuracy: 9928/10000 (99%)
+
+Accuracy Improving
+9 Done...
+Train set: Average loss: 1.4653, Accuracy: 59820/60000 (100%)
+
+
+Test set: Average loss: 1.4689, Accuracy: 9934/10000 (99%)
+
+Accuracy Improving
+10 Done...
+Train set: Average loss: 1.4649, Accuracy: 59831/60000 (100%)
+
+
+Test set: Average loss: 1.4699, Accuracy: 9924/10000 (99%)
+
+11 Done...
+Train set: Average loss: 1.4641, Accuracy: 59863/60000 (100%)
+
+
+Test set: Average loss: 1.4685, Accuracy: 9935/10000 (99%)
+
+Accuracy Improving
+12 Done...
+Train set: Average loss: 1.4638, Accuracy: 59874/60000 (100%)
+
+
+Test set: Average loss: 1.4685, Accuracy: 9936/10000 (99%)
+
+Accuracy Improving
+13 Done...
+Train set: Average loss: 1.4637, Accuracy: 59880/60000 (100%)
+
+
+Test set: Average loss: 1.4687, Accuracy: 9931/10000 (99%)
+
+14 Done...
+Train set: Average loss: 1.4633, Accuracy: 59896/60000 (100%)
+
+
+Test set: Average loss: 1.4684, Accuracy: 9938/10000 (99%)
+
+Accuracy Improving
+15 Done...
+Train set: Average loss: 1.4631, Accuracy: 59901/60000 (100%)
+
+
+Test set: Average loss: 1.4686, Accuracy: 9932/10000 (99%)
+
+16 Done...
+Train set: Average loss: 1.4630, Accuracy: 59907/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9940/10000 (99%)
+
+Accuracy Improving
+17 Done...
+Train set: Average loss: 1.4628, Accuracy: 59912/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9939/10000 (99%)
+
+18 Done...
+Train set: Average loss: 1.4628, Accuracy: 59917/60000 (100%)
+
+
+Test set: Average loss: 1.4684, Accuracy: 9930/10000 (99%)
+
+19 Done...
+Train set: Average loss: 1.4627, Accuracy: 59918/60000 (100%)
+
+
+Test set: Average loss: 1.4681, Accuracy: 9936/10000 (99%)
+
+20 Done...
+Train set: Average loss: 1.4626, Accuracy: 59922/60000 (100%)
+
+
+Test set: Average loss: 1.4680, Accuracy: 9938/10000 (99%)
+
+21 Done...
+Train set: Average loss: 1.4626, Accuracy: 59924/60000 (100%)
+
+
+Test set: Average loss: 1.4680, Accuracy: 9935/10000 (99%)
+
+22 Done...
+Train set: Average loss: 1.4625, Accuracy: 59926/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9937/10000 (99%)
+
+23 Done...
+Train set: Average loss: 1.4625, Accuracy: 59930/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9935/10000 (99%)
+
+24 Done...
+Train set: Average loss: 1.4625, Accuracy: 59930/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9940/10000 (99%)
+
+25 Done...
+Train set: Average loss: 1.4624, Accuracy: 59932/60000 (100%)
+
+
+Test set: Average loss: 1.4681, Accuracy: 9939/10000 (99%)
+
+26 Done...
+Train set: Average loss: 1.4624, Accuracy: 59934/60000 (100%)
+
+
+Test set: Average loss: 1.4680, Accuracy: 9935/10000 (99%)
+
+27 Done...
+Train set: Average loss: 1.4624, Accuracy: 59934/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+28 Done...
+Train set: Average loss: 1.4624, Accuracy: 59935/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+29 Done...
+Train set: Average loss: 1.4623, Accuracy: 59936/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9939/10000 (99%)
+
+30 Done...
+Train set: Average loss: 1.4623, Accuracy: 59936/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9933/10000 (99%)
+
+31 Done...
+Train set: Average loss: 1.4623, Accuracy: 59936/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9936/10000 (99%)
+
+32 Done...
+Train set: Average loss: 1.4623, Accuracy: 59937/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9937/10000 (99%)
+
+33 Done...
+Train set: Average loss: 1.4623, Accuracy: 59937/60000 (100%)
+
+
+Test set: Average loss: 1.4680, Accuracy: 9938/10000 (99%)
+
+34 Done...
+Train set: Average loss: 1.4623, Accuracy: 59938/60000 (100%)
+
+
+Test set: Average loss: 1.4680, Accuracy: 9933/10000 (99%)
+
+35 Done...
+Train set: Average loss: 1.4622, Accuracy: 59941/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9936/10000 (99%)
+
+36 Done...
+Train set: Average loss: 1.4622, Accuracy: 59941/60000 (100%)
+
+
+Test set: Average loss: 1.4679, Accuracy: 9935/10000 (99%)
+
+37 Done...
+Train set: Average loss: 1.4622, Accuracy: 59941/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9938/10000 (99%)
+
+38 Done...
+Train set: Average loss: 1.4622, Accuracy: 59943/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9935/10000 (99%)
+
+39 Done...
+Train set: Average loss: 1.4622, Accuracy: 59943/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+40 Done...
+Train set: Average loss: 1.4622, Accuracy: 59944/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9938/10000 (99%)
+
+41 Done...
+Train set: Average loss: 1.4622, Accuracy: 59944/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+42 Done...
+Train set: Average loss: 1.4621, Accuracy: 59945/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9933/10000 (99%)
+
+43 Done...
+Train set: Average loss: 1.4621, Accuracy: 59945/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+44 Done...
+Train set: Average loss: 1.4621, Accuracy: 59945/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+45 Done...
+Train set: Average loss: 1.4621, Accuracy: 59945/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+46 Done...
+Train set: Average loss: 1.4621, Accuracy: 59946/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9938/10000 (99%)
+
+47 Done...
+Train set: Average loss: 1.4621, Accuracy: 59946/60000 (100%)
+
+
+Test set: Average loss: 1.4677, Accuracy: 9936/10000 (99%)
+
+48 Done...
+Train set: Average loss: 1.4621, Accuracy: 59946/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+49 Done...
+Train set: Average loss: 1.4621, Accuracy: 59946/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+50 Done...
+Train set: Average loss: 1.4621, Accuracy: 59947/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+51 Done...
+Train set: Average loss: 1.4621, Accuracy: 59947/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+52 Done...
+Train set: Average loss: 1.4621, Accuracy: 59947/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9937/10000 (99%)
+
+53 Done...
+Train set: Average loss: 1.4621, Accuracy: 59947/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+54 Done...
+Train set: Average loss: 1.4621, Accuracy: 59947/60000 (100%)
+
+
+Test set: Average loss: 1.4678, Accuracy: 9936/10000 (99%)
+
+55 Done...
+
+
+
+
+
+
+
+train_loss   train_accuracy   test_loss   test_accuracy)
+1.5878409434159597,0.8892833333333333,1.4862731798887252,98.12
+1.4836492289304732,0.9819833333333333,1.478493625998497,98.71
+1.4764500024914742,0.988,1.476164305448532,98.83
+1.4730846769014994,0.99055,1.4760288367271424,98.74
+1.4708146358529726,0.9924666666666667,1.4720783253908158,99.13
+1.4690362911423047,0.9938166666666667,1.4730102603435515,99.01
+1.467774936834971,0.9948666666666667,1.470261930346489,99.23
+1.4670356396635373,0.9953333333333333,1.470307722568512,99.18
+1.4661723535060882,0.9962,1.4695615631341934,99.28
+1.4652907472252845,0.997,1.4689284737110138,99.34
+1.4648940185507138,0.9971833333333333,1.4698805421590806,99.24
+1.464095874786377,0.9977166666666667,1.4684791731834412,99.35
+1.4638199658592541,0.9979,1.4684548300504685,99.36
+1.463654232998689,0.998,1.4686595474481583,99.31
+1.4632572355071705,0.9982666666666666,1.4683585773706436,99.38
+1.463098115503788,0.99835,1.4686456733942033,99.32
+1.4629577709237735,0.99845,1.4678265713453293,99.4
+1.4628457221587499,0.9985333333333334,1.4679084335565566,99.39
+1.4627511169513066,0.9986166666666667,1.468379322052002,99.3
+1.4627213063438733,0.9986333333333334,1.4680521134138107,99.36
+1.4626124336322148,0.9987,1.4680192885398864,99.38
+1.4625937506953874,0.9987333333333334,1.467974764227867,99.35
+1.462526764214039,0.9987666666666667,1.467903699874878,99.37
+1.4624911897977193,0.9988333333333334,1.4678486605882646,99.35
+1.4624535457889238,0.9988333333333334,1.4677865763902664,99.4
+1.4624268491864205,0.9988666666666667,1.4681065133810043,99.39
+1.4623857387105623,0.9989,1.4679654525518417,99.35
+1.4623606427907945,0.9989,1.4678258355855942,99.37
+1.462365164220333,0.9989166666666667,1.467764442205429,99.37
+1.4623180057605107,0.9989333333333333,1.467811347603798,99.39
+1.4623081639409066,0.9989333333333333,1.4678828386068343,99.33
+1.4623004388213157,0.9989333333333333,1.467884554028511,99.36
+1.462295597533385,0.99895,1.4678943331241607,99.37
+1.4622972770929337,0.99895,1.4679873048067094,99.38
+1.4622756885488828,0.9989666666666667,1.4679539868831635,99.33
+1.4622255744934083,0.9990166666666667,1.4678534322977066,99.36
+1.462219203611215,0.9990166666666667,1.46785973405838,99.35
+1.462203623453776,0.9990166666666667,1.467847760796547,99.38
+1.4621882194479308,0.99905,1.4677974224090575,99.35
+1.462176655570666,0.99905,1.4678071197271347,99.36
+1.462166246632735,0.9990666666666667,1.4678384582996369,99.38
+1.462152327756087,0.9990666666666667,1.4678152998685836,99.37
+1.4621404247283936,0.9990833333333333,1.4677574017047883,99.33
+1.462134488304456,0.9990833333333333,1.4678181487321853,99.36
+1.4621284373203913,0.9990833333333333,1.4677872802019118,99.37
+1.4621216876308123,0.9990833333333333,1.4677725657224656,99.36
+1.462117092092832,0.9991,1.4677709556818008,99.38
+1.4621123166680337,0.9991,1.467742807149887,99.36
+1.462109002550443,0.9991,1.4677813605070114,99.36
+1.4621066758235295,0.9991,1.467766124367714,99.37
+1.462094663878282,0.9991166666666667,1.4677620755434035,99.36
+1.4620912895003955,0.9991166666666667,1.467767704486847,99.36
+1.4620879345933597,0.9991166666666667,1.4677769632339477,99.37
+1.4620855545798936,0.9991166666666667,1.4677760885953903,99.36
+1.4620835343400638,0.9991166666666667,1.4677620142698289,99.36
